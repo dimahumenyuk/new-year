@@ -1,0 +1,67 @@
+/* import fonts.googleapis.com */
+@import url(https://fonts.googleapis.com/css?family=Akronim);
+
+/* main css */
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+}
+
+.body {
+    position: relative;
+    padding: 60px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    row-gap: 20px;
+    min-height: 100vh;
+    font-family: "Inter";
+    color: white;
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+
+.content {
+    position: relative;
+    z-index: 2;
+}
+
+.title {
+    font-size: 70px;
+    text-transform: uppercase;
+    -webkit-text-stroke: #eeff00;
+    -webkit-text-stroke-width: 2px;
+    letter-spacing: 4px;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+
+}
+
+.timer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    line-height: 1.4;
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 0 3px 20px red, 0 0 20px red, 0 0 10px orange, 4px -5px 6px yellow, -4px -10px 10px yellow, 0 -10px 30px yellow;
+    -webkit-text-stroke: #ff0000;
+    -webkit-text-stroke-width: 1px;
+}
